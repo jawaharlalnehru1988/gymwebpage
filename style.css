@@ -1,0 +1,178 @@
+.navbar-brand{
+    color: rgb(239 25 161) !important;
+}
+.rounded-start0, .rounded-start1{
+    background-image:url("./assets/ring.png");
+    background-position: center;
+    background-size: 93%;
+    width: 100%;
+}
+.btn{
+    background-color: #ee17a0 !important;
+}
+.card{
+border: none;
+}
+.video-icon{
+    width: 40px;
+    margin-left: 39px;
+}
+.headertitle{
+    font-size: 73px !important;
+}
+.picpadd:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.bodyofBg{
+    background-image: linear-gradient(rgb(255 254 254), rgb(243 209 231), rgb(255 255 255));
+}
+span{
+    color: #e60794;
+}
+.joinnow {
+    padding: 5px 40px !important;
+    background-color: #ee17a0 !important;
+}
+.social-logo{
+    width: 40px;
+}
+.doller h1:hover{
+    background-color: #816bf4;
+    color: white;
+}
+.Copyright{
+    border-top: 1px solid black;
+}
+@media (min-width: 250px ) and ( max-width : 480px) {
+    .navbar-brand{
+        color: #e60794 !important;
+    }
+    .cardcont{
+        width: 100%;
+    }
+    .img-fluid{
+        width: 100%;
+    }
+    .card-body{
+        padding: 25px;
+    }
+    .better {
+        padding: 0px 0px;
+    }
+   .headertitle{
+       font-size: 45px !important;
+   }
+    .social-logo1{
+        --bs-gutter-x: -2.5rem;
+    }
+    .readytoit{
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+}
+@media (min-width: 481px ) and ( max-width : 600px){
+.cardcont{
+        width: 100%;
+    }
+.card-body {
+        padding: 25px;
+    }
+.rounded-start0{
+        max-width: 100%;
+    }
+.rounded-start1{
+        max-width: 100%;
+    }
+.readytoit{
+    display: flex;
+    flex-direction: column-reverse !important;
+}
+.exmes {
+    font-size: 20px !important;
+}
+.ballgirl{
+    position: relative;
+    top: 76px;
+}
+.headertitle{
+    font-size: 45px !important;
+}
+}
+@media (min-width: 601px ) and ( max-width : 768px){
+    .ballgirl{
+        position: relative;
+        top: 76px;
+    }
+    .exmes {
+        font-size: 20px !important;
+    }
+    .better {
+        padding: 0px 20px;
+        padding-bottom: 50px;
+    }
+    .secondpic {
+        position: relative;
+        padding-left: 57px !important;
+        left: 31px !important;
+    }
+    .card-body{
+        padding: 0px !important;
+    }
+    .headertitle{
+        font-size: 45px !important;
+        margin-bottom: 1rem !important;
+    }
+}
+@media (min-width: 769px ) and ( max-width : 992px){
+    .card-body {
+        padding: 0px !important;
+    }
+    .ballgirl{
+        position: relative;
+        top: 76px;
+    }
+    .picpadd{
+        padding: 0px;
+    }
+    .better {
+        padding: 1px 16px;   
+    }   
+    .s-link{
+        width: 125px;
+    }
+    .headertitle{
+        font-size: 35px !important;
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width: 993px ) and ( max-width : 1200px){
+    .rounded-start0{
+        position: relative !important;
+        top: 50px !important;
+    }
+    .headertitle{
+        font-size: 55px !important;
+        margin-bottom: 1rem;
+    }
+}
+/* media range set here  */
+@media (min-width: 1201px ) and (max-width: 1500){
+.readytoit{
+    display: flex;
+    flex-direction: row;
+}
+.rounded-start0{
+    position: relative !important;
+    top: 50px !important;
+}
+.headertitle{
+    font-size: 73px !important;
+}
+}
+/* media range set here  */
+@media (min-width: 1501px) {
+    .headertitle{
+        font-size: 73px !important;
+    }
+}
